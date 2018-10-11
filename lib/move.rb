@@ -14,7 +14,7 @@ end
 
 def move(board,index,charac="X")
    index=index.to_i
-    index-=1
-  board[index] = charac
+   
+  board[index-1] = charac
   return board
 end
